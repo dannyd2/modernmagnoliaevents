@@ -12,13 +12,13 @@ const NavBar = ({ toggleNavbar, isActive }) => (
             }
         `}
     render={data => (
-      <nav className='navbar is-fixed-top' aria-label='main navigation'>
+      <nav className='navbar is-fixed-top is-primary' aria-label='main navigation'>
         <div className='navbar-brand'>
-          <Link to='/' className='navbar-item'>
-            <strong>Modern Magnolia</strong>
-          </Link>
+            <Link to="/" className="navbar-item" title="Logo">
+              <img src="/icons/Logo3aaa.svg" alt="Modern Magnolia" style={{ width: '50px' }} />
+            </Link>
           <button
-            className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
+            className={`button navbar-burger is-primary-invert ${isActive ? 'is-active' : ''}`}
             data-target='navMenu'
             onClick={toggleNavbar}
           >
@@ -44,7 +44,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
               <div className='field is-grouped'>
                 <p className='control'>
                   <Link
-                    className='button is-primary is-outlined'
+                    className='button is-primary-inverted is-outlined'
                     to='/contact'>
                             Contact Us
                   </Link>

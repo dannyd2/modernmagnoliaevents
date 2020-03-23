@@ -18,20 +18,8 @@ const HomePageTemplate = ({
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
     </Helmet>
-    <section className='hero is-primary is-bold is-medium'>
-      <div className='hero-body'>
-        <div className='container'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='section'>
-                <h1 className='title'>
-                  {title}
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section className='hero is-bold is-medium'>
+    <img className='full-width-image' src="/icons/ModernMagnolia.svg" alt="Modern Magnolia" style={{position: 'center' }}/>
     </section>
     <section className='section section--gradient'>
       <div className='container'>
@@ -47,8 +35,10 @@ const HomePageTemplate = ({
                   <p>{description}</p>
                 </div>
                 <Offerings gridItems={offerings.blurbs} />
+                {/*
                 <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
                 <Testimonials testimonials={testimonials} />
+                */}
               </div>
             </div>
           </div>
