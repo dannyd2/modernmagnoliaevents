@@ -4,6 +4,7 @@ import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
 
+
 const HomePageTemplate = ({
   title,
   heading,

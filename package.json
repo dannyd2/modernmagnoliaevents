@@ -54,6 +54,7 @@
     "react": "^16.9.0",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.9.0",
+    "react-grid-gallery": "^0.5.5",
     "react-helmet": "^5.2.1",
     "react-native-images-collage": "^3.2.5",
     "react-share": "^3.0.1",
