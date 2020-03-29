@@ -3,8 +3,8 @@ templateKey: 'home-page'
 title: Welcome to Modern Magnolia Events
 meta_title: Modern Magnolia Events
 meta_description: >-
-  Custom Furniture for Events, Social Gatherings and Weddings
-heading: Custom Furniture for Corporate Events, Social Gatherings and Weddings
+  Custom Furniture & Decor Rentals for Events, Social Gatherings and Weddings
+heading: Custom Furniture & Decor Rentals for Events, Social Gatherings and Weddings
 description: >-
   
 offerings:

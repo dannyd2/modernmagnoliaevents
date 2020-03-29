@@ -12,7 +12,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
             }
         `}
     render={data => (
-      <nav className='navbar is-fixed-top is-primary' aria-label='main navigation'>
+      <nav className='navbar is-fixed-top is-primary is-bold' aria-label='main navigation'>
         <div className='navbar-brand'>
             <Link to="/" className="navbar-item" title="Logo">
               <img src="/icons/Logo3aaa.svg" alt="Modern Magnolia" style={{ width: '50px' }} />

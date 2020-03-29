@@ -9,11 +9,11 @@ const PostCard = ({ posts }) => {
         .map(({ node: post }) => (
           <div
             className='content'
-            style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
+            style={{ border: '1px solid #f2f2f2', padding: '2em 4em', background: '#f2f2f2' }}
             key={post.id}
           >
             <p>
-              <Link className='has-text-primary' to={post.fields.slug}>
+              <Link className='has-text-link' to={post.fields.slug}>
                 {post.frontmatter.title}
               </Link>
               <span> &bull; </span>

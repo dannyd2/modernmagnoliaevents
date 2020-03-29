@@ -14,6 +14,6 @@ module.exports = {
   userDescription: '',
   disqusShortname: 'Modern-Magnolia', // Disqus shortname.
   copyright: '', // Copyright string for the footer of the website and RSS feed.
-  themeColor: '#f6e7e2f6', // Used for setting manifest and progress theme colors.
-  backgroundColor: '#ffffff', // Used for setting manifest background color.
+  themeColor: '#f6e7e2', // Used for setting manifest and progress theme colors.
+  backgroundColor: '#fff', // Used for setting manifest background color.
 }
